@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/Jasim's Profile Pic.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator | Jasim</title>
+</head>
+<body>
+    <h2>My Calculator</h2>
+    <div class="calculator">
+        <input id="display" readonly>
+
+        <div class="keys">
+            <button onclick="clearDisplay()" class="operator-btn clear-btn">AC</button>
+            <button onclick="appendToDisplay('%')" class="operator-btn">%</button>
+            <button onclick="backBtn()" class="operator-btn"> < </button>
+            <button onclick="appendToDisplay('/')" class="operator-btn">/</button>
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('9')">9</button>
+            <button onclick="appendToDisplay('*')" class="operator-btn">x</button>
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('6')">6</button>
+            <button onclick="appendToDisplay('-')" class="operator-btn">-</button>
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button onclick="appendToDisplay('+')" class="operator-btn">+</button>
+            <button onclick="appendToDisplay('0')">00</button>
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="appendToDisplay('.')">.</button>
+            <button onclick="calculate()" class="operator-btn">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
