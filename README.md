@@ -21,7 +21,7 @@ The app provides a clean and intuitive interface, allowing users to quickly and 
 ### How to Use:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Jasim-ansari-23/Calculator.git
+   https://github.com/mo-jasim/Calculator.git
    ```
 2. Navigate to the project directory and open the `index.html` file in your preferred browser.
 3. Use the on-screen buttons or your keyboard to enter numbers and perform calculations.
