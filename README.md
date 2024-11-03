@@ -1,6 +1,6 @@
 # Calculator App
 
-Check this app here:  [https://calculator.jasim.io/]
+Check this app here:  [https://calculator.buildwithjasim.tech/]
 
 ### About
 The app provides a clean and intuitive interface, allowing users to quickly and efficiently perform calculations, whether for personal, academic, or professional purposes. It mimics the functionality of a standard calculator, making it accessible to users of all technical skill levels. 
